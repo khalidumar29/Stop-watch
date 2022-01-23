@@ -1,12 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 body {
   background: #7fe9d4;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #191654, #43c6ac);
-  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #191654, #43c6ac);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: block;
   height: 100vh;
 }
@@ -54,7 +50,6 @@ hr {
   border-radius: 5px;
   cursor: pointer;
 }
-
 
 #time {
   width: 100%;
@@ -123,7 +118,7 @@ hr {
 #record-container {
   /* record container is hidden by default */
   display: none;
-  
+
   margin-top: 20px;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -229,7 +224,7 @@ tr {
 }
 
 .buttons {
-  color:#fefefe;
+  color: #fefefe;
   outline: none;
   height: 50px;
   text-align: center;
@@ -243,14 +238,14 @@ tr {
   cursor: pointer;
   transition: all 0.25s ease;
   margin: 10px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   overflow: hidden;
 }
 .buttons:hover {
   color: #1b5c7e;
   background: #46f5f8;
-  box-shadow: 0 0 10px #29d3d6,0 0 40px #29d3d6,0 0 80px #29d3d6;
-transition-delay:0.001s;
+  box-shadow: 0 0 10px #29d3d6, 0 0 40px #29d3d6, 0 0 80px #29d3d6;
+  transition-delay: 0.001s;
 }
 .buttons:active {
   letter-spacing: 2px;
@@ -258,25 +253,23 @@ transition-delay:0.001s;
 .buttons:focus {
   outline: none;
 }
-#disabling{
+#disabling {
   pointer-events: none;
 }
 
-
-::-webkit-scrollbar
-{
-	width: 10px;
-	background-color: #F5F5F5;
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #f5f5f5;
 }
 
-::-webkit-scrollbar-thumb
-{
-	border-radius: 10px;
-	background-image: -webkit-gradient(linear,
-									   left bottom,
-									   left top,
-									   color-stop(0.44, rgb(122,153,217)),
-									   color-stop(0.72, rgb(73,125,189)),
-									   color-stop(0.86, rgb(28,58,148)));
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.44, rgb(122, 153, 217)),
+    color-stop(0.72, rgb(73, 125, 189)),
+    color-stop(0.86, rgb(28, 58, 148))
+  );
 }
- 
